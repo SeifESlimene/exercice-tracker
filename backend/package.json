@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A backend of our app",
+  "main": "index.js",
+  "keywords": [
+    "backend",
+    "express",
+    "mongoose",
+    "mongodb"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --trace-warnings"
+  },
+  "author": "Seif Eddine Slimene",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "nodemon": "^2.0.4"
+  }
+}
